@@ -1,0 +1,15 @@
+<html>
+ <body>
+    <h1>BOOK LIST</h1>
+    <ol>
+        {{#each list}}
+          <li>{{this.book_name}} by {{this.author_name}}</li>
+        {{/each}}
+    </ol>
+    <p>
+      <a href="/addBookForm">Add A Book </a>
+    </p>
+  </body>
+</html>
+
+  

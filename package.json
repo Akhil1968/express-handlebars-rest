@@ -1,0 +1,23 @@
+{
+  "name": "books-rest-client",
+  "version": "1.0.0",
+  "description": "A client app for calling rest APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "template-engine",
+    "handlebars"
+  ],
+  "author": "Akhil",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "express-handlebars": "latest",
+    "axios": "latest"
+  }
+}
